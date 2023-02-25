@@ -22,15 +22,15 @@ The goal of this project is to develop an ETL pipeline that extracts Twitter dat
 
 ## Tech stack
 
--   ### Python
+-   #### Python
 
     Used to create the extract and transform the twitter data.
 
--   ### Apache Airflow
+-   #### Apache Airflow
 
     Used to Automate and monitor the pipeline.
 
--   ### PostgreSQL
+-   #### PostgreSQL
     A relational database Used to store the transformed data.
 
 ## Extract, Transform & Load
