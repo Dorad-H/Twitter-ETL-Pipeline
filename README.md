@@ -40,7 +40,7 @@ Caption
 
 <figure>
   <img src="https://github.com/Dorad-H/Twitter_Pipeline/blob/f2fb2f6d67c421ec0cf907aef06637455465ecac/ER%20diagram.png"/>
-  <figcaption>This is the caption</figcaption>
+  <figcaption style="text-align=center">This is the caption</figcaption>
 </figure>
 
 The pipeline is designed to be automated and monitored using Apache Airflow, an open-source platform for creating, scheduling, and monitoring workflows. We define the pipeline as a DAG (Directed Acyclic Graph), were we schedule of tasks, defined as python functions, and monitor progress. This makes the pipeline more efficient, reliable, and scalable, which is essential when working with large volumes of data.
