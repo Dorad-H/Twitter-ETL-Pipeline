@@ -1,6 +1,8 @@
-# Twitter_Pipeline
+# Twitter ETL Pipeline
 
 Development of automated data pipelines to extract twitter data, with a sentiment analysis
+
+---
 
 ## Table of contents
 
@@ -10,21 +12,26 @@ Development of automated data pipelines to extract twitter data, with a sentimen
 -   [Machine Learning](https://github.com/Dorad-H/Twitter-ETL-Pipeline#machine-learning)
 -   [Authors](https://github.com/Dorad-H/Twitter-ETL-Pipeline#authors)
 
+---
+
+## Description
+
+Social media platforms have become a valuable source of data for various industries, including marketing, research, and public opinion analysis. Twitter, in particular, is a popular platform for real-time information exchange and communication, making it a valuable source of data for businesses and researchers alike. However, extracting and analyzing data from Twitter can be challenging due to the sheer volume and unstructured nature of the data. This is where an ETL (Extract, Transform, Load) pipeline comes in handy.
+
+The goal of this project is to develop an ETL pipeline that extracts Twitter data, specifically tweets and replies to those tweets, and stores them in a relational database. The pipeline will perform various transformations on the data to ensure that it is clean, consistent, and ready for analysis.
+
 ## Tech stack
 
-The following were used due to being free, open source and therefore accessible for the team to use.
+-   ### Python
 
--   Python
+    Used to create the extract and transform the twitter data.
 
-    -   Allows access to the twitter API for extraction of data
+-   ### Apache Airflow
 
--   Apache Airflow
+    Used to Automate and monitor the pipeline.
 
-    -   Automates and monitors workflows.
-
--   PostgreSQL
-
-    -   Secure and scalable database in which data can be queried for use.
+-   ### PostgreSQL
+    A relational database Used to store the transformed data.
 
 ## Extract, Transform & Load
 
@@ -56,4 +63,4 @@ Logistic Regression used to predict the sentiments by a company
 -   [Pernelle Gamrowski](https://github.com/pernelleg)
 -   [Helen Luhaäär](https://github.com/HelenLB)
 
-[Back to the top](https://github.com/Dorad-H/Twitter_Pipeline/blob/master/README.md#twitter_pipeline)
+[Back to the top](https://github.com/Dorad-H/Twitter-ETL-Pipeline#twitter_pipeline)
