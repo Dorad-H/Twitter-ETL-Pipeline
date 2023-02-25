@@ -33,7 +33,7 @@ The goal of this project is to develop an ETL pipeline that extracts Twitter dat
 
 ## Extract, Transform & Load
 
-This ETL pipeline involves using Tweepy, the Twitter API to extract data from Twitter, specifically tweets and replies. The extracted data is then transformed using pandas, a popular data manipulation library in Python, where it is cleaned and reformated into a structured format to fit the database design shown in figure 1. The transformed data is loaded into a PostgreSQL database, a scalable and reliable relational database management system.
+This ETL pipeline involves using Tweepy, the Twitter API, to extract data from Twitter, specifically tweets and replies. The extracted data is then transformed using pandas, a popular data manipulation library in Python, where it is cleaned and reformated into a structured format to fit the database design shown in figure 1. The transformed data is loaded into a PostgreSQL database, a scalable and reliable relational database management system.
 
 ![alt text](https://raw.githubusercontent.com/Dorad-H/Twitter-ETL-Pipeline/master/ER%20diagram.png "ER Diagram")
 
