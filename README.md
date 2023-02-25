@@ -6,7 +6,7 @@ Development of automated data pipelines to extract twitter data, with a sentimen
 
 ## Table of contents
 
--   [Tech stack](https://github.com/Dorad-H/Twitter-ETL-Pipeline#tech-stack)
+-   [Description](https://github.com/Dorad-H/Twitter-ETL-Pipeline#description)
 -   [ETL pipleline](https://github.com/Dorad-H/Twitter-ETL-Pipeline#extract-transform--load)
 -   [Authors](https://github.com/Dorad-H/Twitter-ETL-Pipeline#authors)
 
