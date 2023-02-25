@@ -18,7 +18,7 @@ Social media platforms have become a valuable source of data for various industr
 
 The goal of this project is to develop an ETL pipeline that extracts Twitter data, specifically tweets and replies to those tweets, and stores them in a relational database. The pipeline will perform various transformations on the data to ensure that it is clean, consistent, and ready for analysis.
 
-## Tech stack
+### Tech stack
 
 -   #### Python
 
