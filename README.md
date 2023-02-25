@@ -36,12 +36,8 @@ The goal of this project is to develop an ETL pipeline that extracts Twitter dat
 This ETL pipeline involves using Tweepy, the Twitter API to extract data from Twitter, specifically tweets and replies. The extracted data is then transformed using pandas, a popular data manipulation library in Python, where it is cleaned and reformated into a structured format to fit the database design shown in the E-R Diagram below. The transformed data is loaded into a PostgreSQL database, a scalable and reliable relational database management system.
 
 ![alt text](https://github.com/Dorad-H/Twitter_Pipeline/blob/f2fb2f6d67c421ec0cf907aef06637455465ecac/ER%20diagram.png "ER Diagram")
-Caption
 
-<figure>
-  <img src="https://github.com/Dorad-H/Twitter_Pipeline/blob/f2fb2f6d67c421ec0cf907aef06637455465ecac/ER%20diagram.png"/>
-  <figcaption style="text-align:center; width:100%;">This is the caption</figcaption>
-</figure>
+<div align="center">Caption</div>
 
 The pipeline is designed to be automated and monitored using Apache Airflow, an open-source platform for creating, scheduling, and monitoring workflows. We define the pipeline as a DAG (Directed Acyclic Graph), were we schedule of tasks, defined as python functions, and monitor progress. This makes the pipeline more efficient, reliable, and scalable, which is essential when working with large volumes of data.
 
