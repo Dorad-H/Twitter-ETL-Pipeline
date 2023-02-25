@@ -43,7 +43,7 @@ The pipeline is designed to be automated and monitored using Apache Airflow, an 
 
 # Authors
 
--   [Dorad Hasani](https://studentsunionucl.org/sites/default/files/u198411/image00060.jpeg)
+-   [Dorad Hasani](https://github.com/Dorad-H)
 -   [Jan Salcedo](https://github.com/SuperSalcedo22)
 -   [Pernelle Gamrowski](https://github.com/pernelleg)
 -   [Helen Luhaäär](https://github.com/HelenLB)
