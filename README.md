@@ -41,7 +41,7 @@ This ETL pipeline involves using Tweepy, the Twitter API to extract data from Tw
 
 The pipeline is designed to be automated and monitored using Apache Airflow, an open-source platform for creating, scheduling, and monitoring workflows. We define the pipeline as a DAG (Directed Acyclic Graph), were we schedule of tasks, defined as python functions, and monitor progress. This makes the pipeline more efficient, reliable, and scalable, which is essential when working with large volumes of data.
 
-# Authors
+## Authors
 
 -   [Dorad Hasani](https://github.com/Dorad-H)
 -   [Jan Salcedo](https://github.com/SuperSalcedo22)
