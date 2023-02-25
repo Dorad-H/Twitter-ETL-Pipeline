@@ -8,8 +8,6 @@ Development of automated data pipelines to extract twitter data, with a sentimen
 
 -   [Tech stack](https://github.com/Dorad-H/Twitter-ETL-Pipeline#tech-stack)
 -   [ETL pipleline](https://github.com/Dorad-H/Twitter-ETL-Pipeline#extract-transform--load)
--   [ELT pipeline](https://github.com/Dorad-H/Twitter-ETL-Pipeline#extract-load--transform)
--   [Machine Learning](https://github.com/Dorad-H/Twitter-ETL-Pipeline#machine-learning)
 -   [Authors](https://github.com/Dorad-H/Twitter-ETL-Pipeline#authors)
 
 ---
@@ -35,26 +33,11 @@ The goal of this project is to develop an ETL pipeline that extracts Twitter dat
 
 ## Extract, Transform & Load
 
-Used for structured data, transformed within python to conform to the below model to ensure the database remained efficient and sacable in future.
+This ETL pipeline involves using Tweepy, the Twitter API to extract data from Twitter, specifically tweets and replies. The extracted data is then transformed using pandas, a popular data manipulation library in Python, where it is cleaned and reformated into a structured format to fit the database design shown in the E-R Diagram below. The transformed data is loaded into a PostgreSQL database, a scalable and reliable relational database management system.
+
 ![alt text](https://github.com/Dorad-H/Twitter_Pipeline/blob/f2fb2f6d67c421ec0cf907aef06637455465ecac/ER%20diagram.png "ER Diagram")
 
-## Extract, Load & Transform
-
-Used for semi-structured data, relevant variables extracted in JSON format. Stored in the database in the below format which could then be extracted and transformed for needed use.
-![alt text](https://github.com/Dorad-H/Twitter_Pipeline/blob/917c0e72d1e1e96f7d7d9f3a6674ee1d35b355e6/Semi%20structured.png "JSON format")
-
-## Machine Learning
-
-Sentiment analysis of company tweets using the [VADER package.](https://github.com/cjhutto/vaderSentiment) Sentiment of tweets scored using this package -1 to 1 with the following groupings shown below:
-
--   Negative
--   Neutral (-0.05 to 0.05)
--   Positive
-
-Logistic Regression used to predict the sentiments by a company
-
--   Accuracy of 72%
--   F1 score of 0.75 on positive values
+The pipeline is designed to be automated and monitored using Apache Airflow, an open-source platform for creating, scheduling, and monitoring workflows. We define the pipeline as a DAG (Directed Acyclic Graph), were we schedule of tasks, defined as python functions, and monitor progress. This makes the pipeline more efficient, reliable, and scalable, which is essential when working with large volumes of data.
 
 # Authors
 
