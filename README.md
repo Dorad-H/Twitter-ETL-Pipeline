@@ -1,6 +1,6 @@
 # Twitter ETL Pipeline
 
-Development of automated data pipelines to extract twitter data, with a sentiment analysis
+Development of an automated data pipeline to extract twitter data and store it in a relation database.
 
 ---
 
